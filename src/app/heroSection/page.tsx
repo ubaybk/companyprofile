@@ -28,8 +28,8 @@ export default function HeroSection() {
                 <div className="container h-screen">
                     <div className="flex">
                         <div className="md:w-1/2">
-                            <h1 className="text-4xl sm:mt-32 md:mt-30 lg:mb-10 lg:text-6xl sm:text-sm text-white font-extrabold mt-24 mb-5">Membantu Temukan Rumah Impian .</h1>
-                            <h1 className="text-white md:w-3 sm:w-44 lg:w-[500px]"><span className="font-bold text-white w-1">RumahKu</span> hadir untuk temukan rumah terbaik untukmu, untuk di jual ataupun di sewa dengan sumber terpercaya</h1>
+                            <h1 className="text-4xl sm:mt-32 sm:text-4xl md:mt-30 md:text-4xl lg:mb-10 lg:text-6xl sm:text-sm text-white font-extrabold mt-[150px] mb-5">Membantu Temukan Rumah Impian .</h1>
+                            <h1 className="text-white md:w-30 sm:w-[490px] lg:w-[500px]"><span className="font-bold text-white w-1">RumahKu</span> hadir untuk temukan rumah terbaik untukmu, untuk di jual ataupun di sewa dengan sumber terpercaya</h1>
                             <div className="flex mt-4">
                                 <button type="button" className="font-bold border-white text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Temukan Rumah</button>
                                 <a href="#">
@@ -69,7 +69,7 @@ export default function HeroSection() {
                         </div>
                     </div>
 
-                    <div className="row mx-7">
+                    {/* <div className="row mx-7">
                         <div className="grid grid-cols-3 gap-7 text-center">
                             <div className="flex justify-center items-center gap-5 flex-col hover:bg-blue-500 w-[100%]  p-[40px] rounded-md bg-white border-white border-2 mb-8  ">
                                 <img src="/img/Icon-propertybaru.png" alt="iconPorperty" className="rounded-[50%] w-[70px] h-[70px] bg-white" />
@@ -97,7 +97,7 @@ export default function HeroSection() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="row mx-7">
                         <div className="grid grid-row-3 gap-7 text-center">
@@ -132,7 +132,7 @@ export default function HeroSection() {
                 </div>
 
             </Element>
-            <section>
+            {/* <section>
                 <div className="container">
                     <div className="row-auto">
                         <div className="grid-cols-12 text-center p-11 mx-0">
@@ -202,17 +202,17 @@ export default function HeroSection() {
 
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* Search */}
             <section className="h-screen relative">
                 <img src="/img/Img-search.png" alt="imgSearch" className="" />
                 <div className="row-auto  absolute inset-0 flex justify-center  top-0">
                     <div className="grid-cols-12 md:mt-[150px] sm:mt-[100px] text-center ">
-                        <h2 className="text-center font-extrabold mb-3  lg:text-7xl text-white">
+                        <h2 className="text-center font-extrabold mb-3 text-2xl mt-9 sm:-mt-[46px] lg:text-7xl text-white">
                             Temukan Rumah Impianmu
                         </h2>
-                        <p className="font-bold sm:text-[12px] md:text-[18px] lg:text-[18px] italic text-white">Sekarang anda dapat menghemat semua hal stres, waktu, dan biaya tersembunyi dengan ratusan rumah untuk anda </p>
+                        <p className="font-bold text-sm sm:text-[12px] md:text-[18px] lg:text-[18px] italic text-white">Sekarang anda dapat menghemat semua hal stres, waktu, dan biaya tersembunyi dengan ratusan rumah untuk anda </p>
 
                         <div className="grid-cols-10 mx-auto mt-8">
 
