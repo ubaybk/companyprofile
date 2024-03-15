@@ -49,13 +49,10 @@ export default function HeroSection() {
 
 
             {/* About Us */}
-            <Element name='about' id='about'>
-                <section className='h-screen container bg-slate-400'>
+            <Element name='about' id='about' className='h-screen container bg-slate-200'>
                     <div className='mx-auto'>x
-                        <div className='text-center font-bold text-5xl text-white'>About</div>
-
+                    <h1 className='text-center'>About</h1>
                     </div>
-                </section>
             </Element>
 
 
@@ -64,11 +61,11 @@ export default function HeroSection() {
             {/* Layanan */}
 
             <Element name='services' id='services'>
-                <div className="container">
+                <div className="container bg-gradient-to-r from-cyan-800 to-blue-800">
                     <div className="row-auto">
                         <div className="grid-cols-12 text-center p-11 mx-0">
-                            <h2 className="text-5xl font-extrabold mb-3 text-blue-800">Layanan Kami</h2>
-                            <span className="font-bold text-[18px] italic">Rumah_Ubay hadir menjadi solusi bagi kamu</span>
+                            <h2 className="text-5xl font-extrabold mb-3 text-white">Layanan Kami</h2>
+                            <span className="font-bold text-[18px] italic text-white">Rumah_Ubay hadir menjadi solusi bagi kamu</span>
                         </div>
                     </div>
 
