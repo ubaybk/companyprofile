@@ -2,24 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* styles/globals.css */
-
-/* Mengunci orientasi layar potret */
-@media (orientation: landscape) {
-  body {
-    transform: rotate(90deg);
-    transform-origin: center;
-    width: 100vh;
-    height: 100vw;
-    overflow-x: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-  }
-}
-
 
 :root {
   --foreground-rgb: 0, 0, 0;

@@ -29,7 +29,7 @@ export default function HeroSection() {
 
 
     return (
-        <div className="bg-gradient-to-r from-cyan-800 to-blue-800 h-screen landscape:portrait">
+        <div className="bg-gradient-to-r from-cyan-800 to-blue-800 h-screen">
             <Element name='home' id='home'>
                 <section className="mx-9 ">
                     <div className="container h-screen">
