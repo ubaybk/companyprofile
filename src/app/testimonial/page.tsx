@@ -96,7 +96,7 @@ const Testimonial: FC = () => {
           </div>
   
           <button
-            className=" absolute top-1/2 -translate-y-1/2 left-7 -mt-[150px] mt-auto lg:mt-[80px] lg:left-[300px] z-[1] flex items-center justify-center bg-white bg-opacity-25 p-2 rounded-full text-neutral-600 dark:text-neutral-300 hover:text-neutral-800 dark:hover:text-neutral-100 transition-all duration-300 ease-in-out transform-gpu focus:outline-none"
+            className=" absolute top-1/2 -translate-y-1/2 left-7 -mt-[150px] lg:mt-[80px] lg:left-[300px] z-[1] flex items-center justify-center bg-white bg-opacity-25 p-2 rounded-full text-neutral-600 dark:text-neutral-300 hover:text-neutral-800 dark:hover:text-neutral-100 transition-all duration-300 ease-in-out transform-gpu focus:outline-none"
             type="button"
             onClick={prevSlide}
           >
