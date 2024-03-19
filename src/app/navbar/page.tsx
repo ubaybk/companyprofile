@@ -44,6 +44,9 @@ export default function Navbar() {
                                 <a href="#album" className="block py-2 px-3 text-gray-900 rounded hover:bg-blue-200 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Album</a>
                             </li>
                             <li>
+                                <a href="#testimonial" className="block py-2 px-3 text-gray-900 rounded hover:bg-blue-200 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Testimonial</a>
+                            </li>
+                            <li>
                                 <a href="teams" className="block py-2 px-3 text-gray-900 rounded hover:bg-blue-200 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Teams</a>
                             </li>
                         </ul>
@@ -101,6 +104,19 @@ export default function Navbar() {
                     >
                         <li>
                             <a href="album" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Album</a>
+                        </li>
+                    </ScrollLink>
+
+                    <ScrollLink
+                        activeClass="active"
+                        to="testimonial"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >
+                        <li>
+                            <a href="testimonial" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Testimonial</a>
                         </li>
                     </ScrollLink>
 

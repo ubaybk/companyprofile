@@ -37,11 +37,9 @@ export default function HeroSection() {
                             <div className="md:w-1/2">
                                 <h1 className="text-4xl sm:mt-32 sm:text-4xl md:mt-30 md:text-4xl lg:mb-10 lg:text-6xl text-white font-extrabold mt-[150px] mb-5">Membantu Temukan Rumah Impian .</h1>
                                 <h1 className="text-white mt-[60px] md:w-30 sm:w-[490px] lg:w-[500px]"><span className="font-bold text-white w-1">Rumah_Ubay</span> hadir untuk temukan rumah terbaik untukmu, untuk di jual ataupun di sewa dengan sumber terpercaya</h1>
-                                <div className="flex mt-4">
+                                <div className="mt-4">
                                     <a href="#about">
-                                        <button type="button" className="font-bold flex border-white text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Temukan Rumah</button>
-                                        
-                                        
+                                        <button type="button" className="font-bold flex border-white text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Temukan Rumah</button>
                                     </a>
                                 </div>
                             </div>
@@ -187,7 +185,7 @@ export default function HeroSection() {
             <hr className="w-48 h-1 mx-auto my-4 bg-white border-0 rounded md:my-10 dark:bg-white"></hr>
 
             <Element name='randomuser' id='randomuser' className='h-auto w-auto bg-blue-800 md:mt-[120px] md:pt-4 '>
-                <h1 className="font-bold mt-4 text-4xl sm:text-5xl lg:text-7xl text-center md:mb-4 text-white">Teams</h1>
+                <h1 className="font-bold pt-8 pb-3 text-4xl sm:text-5xl lg:text-7xl text-center md:mb-4 text-white">Teams</h1>
                 <RandomUser />
             </Element>
 
@@ -400,7 +398,7 @@ export default function HeroSection() {
                     <a
                         className="font-semibold text-neutral-600 dark:text-neutral-400"
                         href=""
-                    > UBAY HOME</a>
+                    > Rumah_Ubay</a>
                 </div>
             </section>
 
