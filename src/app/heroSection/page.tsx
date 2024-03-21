@@ -179,7 +179,7 @@ export default function HeroSection() {
                     </div>
                     {/* <!-- Social network icons container --> */}
                     <div className="flex justify-center">
-                        <Link href='https://www.facebook.com/bayu.yupi?mibextid=ZbWKwL' target='_blank' className=" mr-6 text-neutral-600 dark:text-neutral-200">
+                        <Link href='https://www.facebook.com/bayu.yupi?mibextid=ZbWKwL' target='_blank' className="hover:text-blue-700 mr-6 text-neutral-600 dark:text-neutral-200">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-4 w-4"
@@ -191,7 +191,7 @@ export default function HeroSection() {
                         </Link>
 
 
-                        <Link href="https://www.instagram.com/ubaybk?utm_source=qr&igsh=MWcyYXFlMHE0NG4xaw==" target='_blank' className="mr-6 text-neutral-600 dark:text-neutral-200">
+                        <Link href="https://www.instagram.com/ubaybk?utm_source=qr&igsh=MWcyYXFlMHE0NG4xaw==" target='_blank' className="hover:text-blue-700 mr-6 text-neutral-600 dark:text-neutral-200">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-4 w-4"
@@ -202,7 +202,7 @@ export default function HeroSection() {
                             </svg>
                         </Link>
 
-                        <Link href="https://github.com/ubaybk" target='_blank' className="text-neutral-600 dark:text-neutral-200">
+                        <Link href="https://github.com/ubaybk" target='_blank' className="text-neutral-600 hover:text-blue-700 dark:text-neutral-200">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-4 w-4"

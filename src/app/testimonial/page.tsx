@@ -73,7 +73,7 @@ const Testimonial: FC = () => {
                   <p className="mb-4 font-medium text-neutral-700 dark:text-neutral-400">
                     {testimonial.job}
                   </p>
-                  <p className="mb-6 font-bold text-white dark:text-neutral-300">{testimonial.testimonial}</p>
+                  <p className="mb-6 font-bold text-black bg-white rounded-md p-6 dark:text-neutral-300">{testimonial.testimonial}</p>
                   <ul className="mb-0 flex justify-center">
                     {[...Array(testimonial.stars)].map((_, index) => (
                       <li key={index}>
