@@ -43,9 +43,8 @@ const Testimonial: FC = () => {
     return (
       <div className="container my-24 mt-auto md:px-6 md:mt-3">
         <section className="mb-32 text-center">
-        <h2 className="text-center font-extrabold mb-3 text-4xl mt-2 sm:-mt-[46px] lg:text-7xl text-white">
-                            Apa Kata Mereka
-                        </h2>
+        <h2 className="text-center font-extrabold mb-3 text-4xl mt-2 sm:-mt-[46px] lg:text-7xl text-white bg-blue-500">Apa Kata Mereka</h2>
+
           <h2 className="mb-12 text-3xl font-bold">Testimoni</h2>
   
           <div
