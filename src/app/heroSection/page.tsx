@@ -151,8 +151,8 @@ export default function HeroSection() {
 
             {/* Search */}
 
-            <Element name='testimonial' id='testimonial' className="relative h-screen">
-                <img src="/img/Img-search.webp" alt="imgSearch" className="bg-slate-950 hidden lg:block " />
+            <Element name='testimonial' id='testimonial' className="relative h-screen bg-gradient-to-r from-cyan-800 to-blue-800 md:bg-none">
+                <img src="/img/Img-search.webp" alt="imgSearch" className="bg-slate-950 hidden md:block " />
                 <div className="row-auto  absolute inset-0 flex justify-center">
                     <div className="grid-cols-12 md:mt-[90px] sm:mt-[100px] text-center ">
                         <div className=''>
@@ -165,7 +165,7 @@ export default function HeroSection() {
 
             <hr className="w-48 h-1 mx-auto my-4 bg-white border-0 rounded md:my-10 dark:bg-white"></hr>
 
-            <Element name='randomuser' id='randomuser' className='h-auto w-auto bg-blue-800 md:mt-[120px] md:pt-4 '>
+            <Element name='randomuser' id='randomuser' className='h-auto w-auto bg-gradient-to-r from-cyan-800 to-blue-800 md:mt-[120px] md:pt-4 '>
                 <h1 className="font-bold pt-8 pb-3 text-4xl sm:text-5xl lg:text-7xl text-center md:mb-4 text-white">Tim Kami</h1>
                 <RandomUser />
             </Element>

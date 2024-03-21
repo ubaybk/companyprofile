@@ -41,7 +41,7 @@ const Testimonial: FC = () => {
     };
   
     return (
-      <div className="container my-24 mt-auto md:px-6 md:mt-3">
+      <div className="container mt-16 md:px-6 md:mt-3 ">
         <section className="mb-32 text-center">
         <h2 className="text-center font-extrabold mb-3 text-4xl mt-2 sm:-mt-[46px] lg:text-7xl text-white">
                             Apa Kata Mereka
@@ -73,7 +73,7 @@ const Testimonial: FC = () => {
                   <p className="mb-4 font-medium text-neutral-700 dark:text-neutral-400">
                     {testimonial.job}
                   </p>
-                  <p className="mb-6 font-bold text-black bg-white rounded-md p-6 dark:text-neutral-300">{testimonial.testimonial}</p>
+                  <p className="mb-6 font-bold text-white md:text-black md:bg-white rounded-md p-6 dark:text-neutral-300">{testimonial.testimonial}</p>
                   <ul className="mb-0 flex justify-center">
                     {[...Array(testimonial.stars)].map((_, index) => (
                       <li key={index}>
