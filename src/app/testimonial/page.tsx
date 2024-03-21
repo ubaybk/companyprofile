@@ -46,7 +46,7 @@ const Testimonial: FC = () => {
         <h2 className="text-center font-extrabold mb-3 text-4xl mt-2 sm:-mt-[46px] lg:text-7xl text-white">
                             Apa Kata Mereka
                         </h2>
-          <h2 className="mb-12 text-3xl font-bold">Testimonials</h2>
+          <h2 className="mb-12 text-3xl font-bold">Testimoni</h2>
   
           <div
             id="carouselExampleCaptions"

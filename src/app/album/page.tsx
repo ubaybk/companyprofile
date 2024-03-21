@@ -13,8 +13,13 @@ const Album = () => {
     };
   
     return (
-      
-      <div id="gallery" className="bg-gradient-to-r from-cyan-800 to-blue-800 relative w-full h-screen flex justify-center items-center" data-carousel="slide">
+      <div className="bg-gradient-to-r from-cyan-800 to-blue-800 ">
+                        <div className="grid-cols-12 text-center p-11 mx-0">
+                            <h2 className="text-5xl font-extrabold mb-3 text-white">Album</h2>
+                            <span className="font-bold text-[18px] italic text-white">Rumah_Ubay hadir menjadi solusi bagi kamu</span>
+                        </div>
+                   
+      <div id="gallery" className="bg-gradient-to-r from-cyan-800 to-blue-800 relative w-full pb-10 flex justify-center items-center" data-carousel="slide">
         {/* Carousel wrapper */}
         <div className="relative h-full w-full">
           {/* Item 1 */}
@@ -57,6 +62,7 @@ const Album = () => {
         </button>
 
         {/* absolute top-1/2 -translate-y-1/2 left-7 mt-auto lg:mt-[80px] lg:left-[300px] z-[1] flex items-center justify-center bg-white bg-opacity-25 p-2 rounded-full text-neutral-600 dark:text-neutral-300 hover:text-neutral-800 dark:hover:text-neutral-100 transition-all duration-300 ease-in-out transform-gpu focus:outline-none */}
+      </div>
       </div>
     );
   };
