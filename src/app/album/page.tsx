@@ -24,23 +24,23 @@ const Album = () => {
         <div className="relative h-full w-full">
           {/* Item 1 */}
           <div className={`duration-700 ease-in-out ${activeIndex === 1 ? 'block' : 'hidden'} w-full h-full flex justify-center items-center`} data-carousel-item>
-            <img src="album/Rekomendasi2.png" className="object-cover object-center max-h-full max-w-full" alt="" />
+            <img src="album/Rekomendasi2.webp" className="object-cover object-center max-h-full max-w-full" alt="" />
           </div>
           {/* Item 2 */}
           <div className={`duration-700 ease-in-out ${activeIndex === 2 ? 'block' : 'hidden'} w-full h-full flex justify-center items-center`} data-carousel-item="active">
-            <img src="album/Rekomendasi1.png" className="object-cover object-center max-h-full max-w-full" alt="" />
+            <img src="album/Rekomendasi1.webp" className="object-cover object-center max-h-full max-w-full" alt="" />
           </div>
           {/* Item 3 */}
           <div className={`duration-700 ease-in-out ${activeIndex === 3 ? 'block' : 'hidden'} w-full h-full flex justify-center items-center`} data-carousel-item>
-            <img src="album/Rekomendasi2.png" className="object-cover object-center max-h-full max-w-full" alt="" />
+            <img src="album/Rekomendasi2.webp" className="object-cover object-center max-h-full max-w-full" alt="" />
           </div>
           {/* Item 4 */}
           <div className={`duration-700 ease-in-out ${activeIndex === 4 ? 'block' : 'hidden'} w-full h-full flex justify-center items-center`} data-carousel-item>
-            <img src="album/Rekomendasi3.png" className="object-cover object-center max-h-full max-w-full" alt="" />
+            <img src="album/Rekomendasi3.webp" className="object-cover object-center max-h-full max-w-full" alt="" />
           </div>
           {/* Item 5 */}
           <div className={`duration-700 ease-in-out ${activeIndex === 5 ? 'block' : 'hidden'} w-full h-full flex justify-center items-center`} data-carousel-item>
-            <img src="album/Rekomendasi4.png" className="object-cover object-center max-h-full max-w-full" alt="" />
+            <img src="album/Rekomendasi4.webp" className="object-cover object-center max-h-full max-w-full" alt="" />
           </div>
         </div>
         {/* Slider controls */}
