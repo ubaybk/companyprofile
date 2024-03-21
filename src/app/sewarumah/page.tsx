@@ -4,7 +4,7 @@ export default function SewaRumah() {
 
     return (
 
-        <div className="h-auto md:h-screen pb-10 bg-gradient-to-r from-cyan-800 to-blue-800 pt-3">
+        <div className="h-screen bg-gradient-to-r from-cyan-800 to-blue-800 pt-3">
             <a href="/">
                 <button type="button" className="w-[150px] mb-6  flex items-center justify-center px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white border rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700">
                     <svg className="w-5 h-5 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
