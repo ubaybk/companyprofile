@@ -47,7 +47,7 @@ export default function HeroSection() {
                                 </div>
                             </div>
                         </div>
-                        <img src="/img/Hero Image.png" alt="rumah" className='absolute bottom-0 right-0 mt-10' />
+                        <img src="/img/Hero Image.webp" alt="rumah" className='absolute bottom-0 right-0 mt-10' />
                         <img src="/img/Accsent 1.png" alt="ascent" className="h-[100px]" />
                     </div>
                 </section>
@@ -152,7 +152,7 @@ export default function HeroSection() {
             {/* Search */}
 
             <Element name='testimonial' id='testimonial' className="relative h-screen">
-                <img src="/img/Img-search.png" alt="imgSearch" className="bg-slate-950 hidden lg:block " />
+                <img src="/img/Img-search.webp" alt="imgSearch" className="bg-slate-950 hidden lg:block " />
                 <div className="row-auto  absolute inset-0 flex justify-center">
                     <div className="grid-cols-12 md:mt-[90px] sm:mt-[100px] text-center ">
                         <div className=''>

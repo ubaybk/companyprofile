@@ -8,7 +8,7 @@ const Testimonial: FC = () => {
       {
         name: 'dr. Maryati',
         job: 'Dokter Umum',
-        avatar: 'testimoni/drmaryati.jpg',
+        avatar: 'testimoni/drmaryati.webp',
         testimonial: `Saya sangat puas dengan layanan dari agen properti ini dalam menjual rumah saya. 
         Mereka sangat profesional dan kompeten dalam menangani proses penjualan. 
         Rumah saya terjual dengan cepat dan harga yang sesuai dengan harapan saya. Terima kasih banyak!`,
@@ -17,7 +17,7 @@ const Testimonial: FC = () => {
       {
         name: 'Rudi Irawan',
         job: 'PNS',
-        avatar: 'testimoni/pak rudi.png',
+        avatar: 'testimoni/pak rudi.webp',
         testimonial: `Saya ingin merekomendasikan agen properti ini kepada siapa pun yang mencari sewa rumah.
         Mereka membantu saya menemukan rumah yang sempurna sesuai kebutuhan saya dan menyediakan layanan purna 
         jual yang luar biasa. Saya sangat senang dengan pengalaman menyewa rumah melalui mereka.`,
@@ -26,7 +26,7 @@ const Testimonial: FC = () => {
       {
         name: 'Bayu Kurniawan',
         job: 'IT Web Developer',
-        avatar: 'testimoni/Bayu Kurniawan.png',
+        avatar: 'testimoni/Bayu Kurniawan.webp',
         testimonial: `Saya ingin berbagi pengalaman positif saya dalam menyewa rumah melalui agen properti ini. Mereka memiliki banyak pilihan rumah yang sesuai dengan kebutuhan dan budget saya. Proses sewa berjalan lancar, dan mereka responsif terhadap pertanyaan dan permintaan saya. Sangat puas dengan layanan mereka!`,
         stars: 4,
       },
